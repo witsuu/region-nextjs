@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+
+.counts {
+  margin: 12px 0;
+  color: var(--text-color-secondary);
+}
+
+.inputContainer {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 720px) {
+  .inputContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .counts {
+    flex: 1;
+  }
+
+  .input {
+    flex: 2;
+  }
+}
